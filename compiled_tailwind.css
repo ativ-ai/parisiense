@@ -1,0 +1,30 @@
+/* Global styles for Be Parisiense */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-noto {
+  font-family: 'Noto Sans', 'Noto Serif', sans-serif;
+}
+
+@keyframes heroBackgroundZoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-hero-bg {
+  animation: heroBackgroundZoom 24s ease-in-out infinite;
+}

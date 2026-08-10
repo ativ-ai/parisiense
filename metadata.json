@@ -1,0 +1,8 @@
+{
+  "name": "Remix Be Parisiense",
+  "description": "Seu guia pessoal para uma autêntica experiência em Paris, por Beatriz Scholten. Dicas, histórias e o olhar de quem vive a cidade.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
